@@ -1,5 +1,8 @@
 h1{
-    color: aquamarine;
+   /* code */
+    /*0->9 a->f hex*/
+    /* 0->255 rgb*/
+    color: aquamarine; //keyword or text
     text-align: center;
 }
 p{

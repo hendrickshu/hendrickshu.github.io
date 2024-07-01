@@ -1,0 +1,24 @@
+/* universal selector */
+/* *{
+    color: rgb(217, 0, 255);
+} */
+/* tag or element selector */
+h1{
+    text-align: center;
+    color: hsl(315, 80%, 10%);
+}
+/* attribute selector */
+a[title="google"]{
+    letter-spacing: 10px;
+}
+/* id selector */
+#idselector{
+    text-indent: 40px;
+}
+/* class selector */
+.classselector{
+    color: brown;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    line-height: 40px;
+}
