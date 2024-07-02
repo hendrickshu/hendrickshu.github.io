@@ -22,3 +22,15 @@ a[title="google"]{
     word-spacing: 5px;
     line-height: 40px;
 }
+/* descentant selector */
+div p {
+    background-color: aquamarine;
+}
+
+/* child selector */
+div>p {
+    color: brown;
+}
+span>p {
+    color:green;
+}
