@@ -34,3 +34,31 @@ div>p {
 span>p {
     color:green;
 }
+/* pseudo selector */
+h1 a:hover{
+    color: white;
+    font-size: 50px;
+    background-color: blueviolet;
+}
+h1:hover{
+    color: aqua;
+}
+h2 a:link{
+    color: brown;
+}
+h2 a:hover{
+    color: purple;
+}
+/* h2 a:visited{
+    color: green;
+} */
+h2 a:active{
+    color: yellow;
+}
+h2 a:hover{
+    color:blue;
+}
+h2 a:hover{
+    color: red;
+}
+
