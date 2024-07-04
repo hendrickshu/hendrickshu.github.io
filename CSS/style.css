@@ -61,4 +61,11 @@ h2 a:hover{
 h2 a:hover{
     color: red;
 }
-
+/* target */
+:target{
+    display: block;
+    color: blueviolet;
+    border: 1px solid yellowgreen;
+    line-height: 10px;
+    letter-spacing: 10px;
+}
