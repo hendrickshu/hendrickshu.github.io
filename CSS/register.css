@@ -45,3 +45,27 @@ input[type="email"]:focus{
   input[type="checkbox"]:disabled+label{
     color: gray;
   }
+  ul li:first-child{
+    background-color: yellow;
+  }
+  ul li:last-child{
+    background-color: green;
+  }
+  ul li:nth-child(5){
+    background-color: red;
+  }
+  p:empty,div:empty{
+    background-color: rgb(22, 3, 57);
+    height: 20px;
+  }
+  #register-btn{
+    height: 50px;
+    width: 100px;
+    float: right;
+    display: block;
+  }
+  #register-btn:hover{
+    background-color: skyblue;
+    color: white;
+    border: 1px solid skyblue;
+  }
