@@ -64,7 +64,7 @@ input[type="email"]:focus{
     float: right;
     display: block;
   }
-  #register-btn:hover{
+  #register_btn:hover{
     background-color: skyblue;
     color: white;
     border: 1px solid skyblue;
