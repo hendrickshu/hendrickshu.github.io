@@ -69,3 +69,46 @@ h2 a:hover{
     line-height: 10px;
     letter-spacing: 10px;
 }
+.inline{
+    border:1px solid red;
+    display: inline-block;
+    width: 100px;
+}
+.block{
+    border: 1px solid green;
+    width: 300px;
+    display: inline;
+}
+/* float */
+.float-right img{
+width: 40%;
+float: right;
+}
+.clear{
+   clear: both;
+}
+.float-left img{
+    width: 40%;
+    float: left;
+}
+/* gird */
+.gridone div ,.gridtwo div,.gridthree div{
+padding: 20px;
+color: white;
+text-align: center;
+}
+.gridone,.gridtwo,.gridthree{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+}
+.gridtwo{
+    grid-column-gap: 50px;
+}
+.gridthree{
+    grid-row-gap: 50px;
+    /* grid-gap: 30px */
+  grid-column-gap: 70px;
+}
+
+
+
