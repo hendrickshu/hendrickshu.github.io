@@ -92,12 +92,12 @@ float: right;
     float: left;
 }
 /* gird */
-.gridone div ,.gridtwo div,.gridthree div{
+.gridone div ,.gridtwo div,.gridthree div,.gridfour div,.gridfive div{
 padding: 20px;
 color: white;
 text-align: center;
 }
-.gridone,.gridtwo,.gridthree{
+.gridone,.gridtwo,.gridthree,.gridfour,.gridfive{
     display: grid;
     grid-template-columns: auto auto  auto;
 }
@@ -108,6 +108,59 @@ text-align: center;
     grid-row-gap: 50px;
     /* grid-gap: 30px */
   grid-column-gap: 70px;
+}
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+/* Position */
+.parent_absolute{
+    width: 1200px;
+    height: 500px;
+    border: 1px solid red;
+    position: relative;
+}
+.absolute{
+    width: 400px;
+    height: 200px;
+    border: 1px solid green;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+.parent_relative{
+    width: 1200px;
+    height: 500px;
+    border: 1px solid yellow;
+}
+.relative{
+    width: 400px;
+    height: 200px;
+    border: 1px solid brown;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+.fixed{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+.online{
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: playwrite;
+    src: url(Playwrite_BE_WAL/PlaywriteBEWAL-VariableFont_wght.ttf);
+}
+.offline{
+    font-family: playwrite;
 }
 
 
