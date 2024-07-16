@@ -70,28 +70,122 @@
 }
 /* end bunner */
 
-/* start grid */
-.grid{
+/* start service */
+.service{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
-    margin:  20px 20px;
+    grid-gap: 30px;
+    margin:  50px 150px 0px;
 }
-.grid_item{
-    border: 1px solid rgba(0, 0, 0,.5);
+.service div{
+    border: 1px solid gray;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
 }
-.icon{
-    position: relative;
-    top: 15px;
-    left: 5px;
+.service_text{
+    display: inline-block;
+    margin-left: 20px;
 }
-.text{
-    position: relative;
-    top: -18px;
-    left: 55px;
+.service_title{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
-/* end grid */
+.service_desc{
+    color: gray;
+}
+/* end service */
 
+/* start promotion */
+.promotion_title{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.divided{
+    width: 90px;
+    border: 2px solid red;
+    margin-left: 150px;
+}
+.promotion{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    margin: 20px 150px;
 
+}
+.promotion_image{
+    width: 100%;
+}
+.promotion_item{
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+}
+.promotion_item p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.promotion_price{
+    position: absolute;
+    top:3%;
+    right:3%;
+}
+.discount_price{
+    color: red;
+    display: block;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.normal_price{
+    color: red;
+    text-decoration: line-through;
+}
+/* end promotion */
+/* start  new arrival*/
+.new_arrival{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    margin: 15px 150px;
+}
+.new_arrival_item{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0px 30px 10px;
+    position: relative;
+}
+.new_arrival_text{
+    display: inline-block;
+}
+.whist_list{
+   float: right;
+}
+.new_arrival_image{
+    width: 100%;
+}
+.new_arrival_icon{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+}
+.new_arrival_icon a{
+    border: 1px solid red;
+    background-color:white;
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.new_arrival_icon a:hover{
+    background-color: red;
+    color: white;
+}
+.new_arrival_image:hover{
+    opacity: 0.5;
+}
+.new_arrival_item:hover .new_arrival_icon{
+    opacity: 1;
+}
