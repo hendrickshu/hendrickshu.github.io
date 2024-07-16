@@ -110,8 +110,9 @@
 .promotion{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 30px;
-    margin: 20px 150px;
+    /* grid-gap: 30px; */
+    grid-column-gap: 30px;
+    margin: 15px 150px;
 
 }
 .promotion_image{
@@ -135,7 +136,7 @@
     color: red;
     display: block;
     border: 1px solid red;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: red;
     color: white;
 }
