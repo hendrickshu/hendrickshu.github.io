@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datatype</title>
+</head>
+<body>
+    <h1>Datatype</h1>
+    <script>
+        // string data type
+        // var name="Hendrick Shu";
+        // var name='Hendrick Shu';
+        var name=`Hendrick Shu`;
+        console.log(name);
+        console.log(typeof(name));
+
+        // numeric data type
+        // var num=23.5; float data type
+        var num=23;
+        console.log(num);
+        console.log(typeof(num));
+
+        // boolean data type
+        var single=true;
+        console.log(single);
+        console.log(typeof(single));
+
+        // null data type
+        var son=null;
+        console.log(son);
+        console.log(typeof(son));
+
+        // undefined 
+        var mybaby;
+        console.log(mybaby);
+
+        // array data type
+        var array1=new Array(1,2,3,4,5,"a","b","c");
+        console.log(array1);
+        console.log(typeof(array1));
+        console.log(array1[5]);
+
+        var multiArray=['mg mg','Ma Ma', ['Hla Hla','Tun Tun'], 'su su'];
+        console.log(multiArray);
+        console.log(multiArray[2][0]);
+
+        // object
+        var student={
+            // key : value
+            name : "Hendrick Shu",
+            age : 25,
+            address : "Mandalay",
+            color : ['red','green']
+        }
+        console.log(student);
+        console.log(student.name);
+        console.log(student.color[1]);
+    </script>
+</body>
+</html>

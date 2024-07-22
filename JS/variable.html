@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+</head>
+<body>
+    <h1>Three types of Variable</h1>
+    <script>
+        // global variable
+        var name="Hendrick Shu";
+        console.log(name);
+        var name="Hendrick Soe";
+        console.log(name);
+
+        // block scope variable
+        let fatherName="U Aung";
+        console.log(fatherName);
+        fatherName="U Aung Myint";
+        console.log(fatherName);
+
+        var num= 1;
+        if(num){
+            var num1 = 2;
+            let num2 = 3;
+            document.write(num2);
+        }
+        document.write(num1);
+
+        // const variable
+
+        const motherName="Daw Khin";
+        console.log(motherName);
+        
+    </script>
+</body>
+</html>
