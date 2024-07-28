@@ -421,6 +421,10 @@
     grid-template-columns: 35% 35%;
     grid-column-gap:100px;
 }
+.gift_for p{
+    text-decoration: none;
+}
+
 .leftarrow{
     position: relative;
     float:left;
