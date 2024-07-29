@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 /* start nav */
 .nav_logo{
@@ -164,25 +165,27 @@
 /* start all list*/
 
 .all_list{
-    width: 120px;
-    height: 30px;
+    width: 250px;
+    height: 70px;
     border: 1px solid gray;
     border-radius: 30px;
-    padding:10px 10px;
+    /* padding:0px 10px 0px 0px; */
     margin-left: 150px;
-    margin-top:10%;
+    margin-top:11%;
 }
 .all_list img{
     float: left;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 70px;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
 }
 .all_list span{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-    height: 30px;
+    height: 70px;
     font-size: 18px;
 }
   
@@ -202,18 +205,35 @@
 .item_list_text{
     display: inline-block;
     margin-left: 20px;
+    margin-top: 15px;
 }
 .whist_list{
    float: right;
    margin-right: 25px;
+   margin-top: 15px;
 }
 .cart_list{
     float: right;
     margin-right: 15px;
+    margin-top: 15px;
 }
 .item_list_image{
     width: 100%;
     height: 80%;
+}
+.special_feature{
+    position: absolute;
+    top:10px;
+    left:10px;
+    background-color: blueviolet;
+    font-size: 18px;
+    padding:10px 30px;
+    border-radius: 25px;
+    color: white;
+}
+ .item-list span:hover{
+ background-color:  #a72470;
+ color: black;
 }
 .item_list_image:hover{
     opacity: 0.5;
@@ -221,7 +241,7 @@
 .see_more_btn{
     margin-top: 43%;
     margin-left: 35%;
-    width: 100px;
+    width: 150px;
     height: 50px;
     border: 1px solid gray;
     border-radius: 5px;
@@ -240,20 +260,19 @@
     height: 70px;
     border: 1px solid gray;
     border-radius: 30px;
-    padding:0px 5px;
+    /* padding:0px 5px; */
     margin:170px 20px;
    }
 
 .gift_name a{
     text-decoration: none;
-
 }
 .gift_name img{
     float: left;
-    width: 75px;
+    width: 100px;
     height: 70px;
-    margin-left: 10px;
-    border-radius: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 .gift_name span{
     display: flex;
@@ -283,6 +302,7 @@
     font-weight: 300;
     font-size: 35px;
     color: rgb(209, 95, 133);
+    bottom: 20px;
 }
 
 .choose_gift{
@@ -312,6 +332,7 @@
     grid-template-columns: 25% 25% 25%;
     margin-top: 15%;
     grid-column-gap: 10px;
+    margin-bottom: 50px;
 }
 .choose_giftnext{ 
     width: 400px;
@@ -357,11 +378,12 @@
 /* start discount */
 .discount_img{
     position: relative;
-    margin-top: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 .discount_img img{
     width: 100%;
-    height: 100px;
+    height: 120px;
 }
 
 .discount_rate{
@@ -371,7 +393,12 @@
     border-radius: 5px;
     background-color:rgb(209, 95, 133);
 }
+.discount_rate a{
+    text-decoration: none;
+    
+}
 .discount_rate span{
+    text-decoration: none;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -447,7 +474,7 @@
     display: grid;
     grid-template-columns: 400px 400px auto;
     background-color:rgb(244, 185, 205);
-    margin: 50px 170px 20px 120px;
+    margin: 50px 170px 50px 120px;
     border-radius: 5px;
 }
 .special_service{
@@ -590,3 +617,45 @@
     margin-left: 35%;
 }
 /* end login */
+
+/*  start product detail  */
+
+.product_detail{
+    width: 100%;
+    height: 650px;
+    margin:0px 20%;
+}
+.product_detail_img{
+    float: left;
+    width: 450px;
+    height: 500px;
+    margin-left: 47px;
+}
+.form_detail{
+    width:500px;
+    height: 620px;
+    margin-left: 500px;
+    padding: 10px 30px;
+}
+.form_detail h1{
+    font-size: 20px;
+    margin: 20px 0px 20px 30px;
+    
+}
+.form_detail label{
+    font-size: 18px;
+    font-weight: 200;
+    margin-right: 30px;
+}
+.form_detail div{
+    padding: 10px 30px;
+}
+.form_detail input{
+    padding: 10px 70px 10px 5px;
+}
+.form_detail button{
+    padding: 10px 30px;
+    margin:20px 0px 30px 60px;
+    background-color:rgb(167, 131, 169);
+}
+/* end product detail */
